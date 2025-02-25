@@ -80,7 +80,7 @@ Ajout de 2 variables ( 1 pour activer le filtre )<br/>
 - VarApplyMyAdultFilter 
 - VarApplyMyfilters 
 
-Amélioration de la fonction filtre perso, renommée en applyFilters()<br/>
+Amélioration de la fonction filtre perso, renommée en applyFilters()<br/><br/>
  <ins>Que sait-on à propos des url ?</ins>
  - pas les même termes que les title
  - pas d'accents
@@ -98,7 +98,7 @@ Amélioration de la fonction filtre perso, renommée en applyFilters()<br/>
  - changement du selecteur  [title~="table" i]' (mot complet) au lieu de * (chaine dans un mot) 
 
 ## 0.20
-Amélioration de la fonction filtre perso<br/>
+Amélioration de la fonction filtre perso<br/><br/>
  <ins>Que sait-on à propos des url ?</ins>
  - pas les même termes que les title
  
