@@ -54,8 +54,8 @@ C'est un userscript à charger avec une extension dans un navigateur WEB.
 <br/>Simplification des includes
 <br/>Ajout d'une exclusion https://www.dealabs.com/submission*
 <br/>Suite à la nouvelle apparence du premier menu, j'incruste ceux de la deuxiéme ligne
-<br/>
-<br/><br/><br/>### 0.15:
+<br/><br/><br/>
+## 0.15:
 <br/>Ajout d'un menu pour les différentes catégories des discussions qui s'ouvre en haut à gauche
 <br/>Amélioration des filtres, possibilité de cibler un ensemble de mots 
 <br/>Exemple  : [["walkman",["drone","cam"],["tv","45","oled"],"skate""],"<br/><br/><br/>###5fcdf5","keywords","<br/><br/><br/>###000000"] 
