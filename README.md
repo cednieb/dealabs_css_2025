@@ -114,7 +114,7 @@ Amélioration de la fonction filtre perso<br/>
  devrait être 
  ,[title~="4070" i],[href*="4070-" i]
 
-#Screenhots
+# Screenhots
 
 ![1](ori.png)
 
