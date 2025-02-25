@@ -109,10 +109,10 @@ Amélioration de la fonction filtre perso<br/><br/>
  - ok pour l'url: pc-portable-gamer-erazer-deputy-p60-156-fhd-144hz-i7-12650h-16go-ssd-512go-rtx-4070-livre-sans-windows-3007406
  - pas ok pour le title: PC Portable 15,6" Erazer Deputy P60 - FHD 144Hz, i7-12650H, 16 Go ram, SSD 512 Go, RTX 4070, Sans OS 
 
- <ins>Solution:</ins>
- ,[title~="4070" i][href*="4070-" i]
- devrait être 
- ,[title~="4070" i],[href*="4070-" i]
+ <ins>Solution:</ins><br/>
+ ,[title~="4070" i][href*="4070-" i]<br/>
+ devrait être<br/>
+ ,[title~="4070" i],[href*="4070-" i]<br/>
 
 # Screenhots
 
