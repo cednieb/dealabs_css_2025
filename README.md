@@ -1,41 +1,56 @@
-Mises à jour
+C'est un userscript à charger avec une extension dans un navigateur WEB.
+<br/>Il s'applique à dealabs.
+<br/>
+<br/>Il permet d'afficher plus d'articles à l'écran
+<br/>et peut mettre en valeur des articles en utilisant des filtres.
+<br/>
+<br/>
+<br/>Release notes
+<br/>
+<br/>Userscript:
+<br/>https://greasyfork.org/fr/scripts/526927-dealabs-css
+<br/>
+<br/>Github pour les anciennes versions
+<br/>https://github.com/cednieb/dealabs_css_2025
+<br/>
+<br/>Mises à jour
 <br/><br/><br/>
 ## 0.02:
 <br/>Mise à jour des // @include
-<br/>
-<br/><br/><br/>## 0.03:
+<br/><br/><br/>
+## 0.03:
 <br/>Ajout des url d'update
-<br/>
-<br/><br/><br/>### 0.05:
+<br/><br/><br/>
+## 0.05:
 <br/>Utilisation de MutationObserver au lieu de DOMNodeInserted
-<br/>
-<br/><br/><br/>### 0.06:
+<br/><br/><br/>
+## 0.06:
 <br/>Menu sur une seule ligne
 <br/>Ne traiter que les articles non modifiés
 <br/>Ajout du lien discussions dans le menu
-<br/>
-<br/><br/><br/>### 0.07:
+<br/><br/><br/>
+## 0.07:
 <br/>Autre approche, ajouter une balise style
-<br/>
-<br/><br/><br/>### 0.08:
+<br/><br/><br/>
+## 0.08:
 <br/>Un peu de css, voir le screenshot
-<br/>
-<br/><br/><br/>### 0.09:
+<br/><br/><br/>
+## 0.09:
 <br/>Des filtres basés sur le contenu avec du css uniquement
 <br/>
 <br/>Orange correspond à un de mes filtres regroupant les marchands de jeux PC
 <br/>Vert pour la Xbox
 <br/>Fade - pour les deals expirés
 <br/>Fade + pour les deals avec de la lingerie ou des jouets pour adultes( j'ai vu que la demande était passée pour ce type de filtre)
-<br/>
-<br/><br/><br/>### 0.10:
+<br/><br/><br/>
+## 0.10:
 <br/>Cosmétique
-<br/>
-<br/><br/><br/>### 0.11
+<br/><br/><br/>
+## 0.11
 <br/>Cosmétique
 <br/>Les deals destinés au adultes ne sont plus cachés, juste la photo.
-<br/>
-<br/><br/><br/>### 0.12:
+<br/><br/><br/>
+## 0.12:
 <br/>Simplification des includes
 <br/>Ajout d'une exclusion https://www.dealabs.com/submission*
 <br/>Suite à la nouvelle apparence du premier menu, j'incruste ceux de la deuxiéme ligne
@@ -50,17 +65,18 @@ Mises à jour
 <br/>une tv oled de 45 pouces   !! pas de guillemets
 <br/>un skate
 <br/>Couleur de fond en bleu
-<br/>
-<br/><br/><br/>### 0.16:
+<br/><br/><br/>
+## 0.16:
 <br/>Réorganisarion du code
 <br/>Les images cachées apparaissent au survol
-<br/>
-<br/><br/><br/>### 0.18:
+<br/><br/><br/>
+## 0.18:
 <br/>Optimisation de la fonction filtre perso
 <br/>- filtre pour mot ou groupe de mots, statut ok.
 <br/>- filtre pour mot ou groupe de mots en ignorant certains termes, statut ok.
 <br/>
-0.19
+<br/><br/><br/>
+## 0.19
 <br/>Ajout de 2 variables ( 1 pour activer le filtre )
 <br/>- VarApplyMyAdultFilter 
 <br/>- VarApplyMyfilters 
@@ -81,8 +97,8 @@ Mises à jour
 <br/>
 <br/> Solution:
 <br/> - changement du selecteur  [title~="table" i]' (mot complet) au lieu de * (chaine dans un mot) 
-<br/>
-0.20
+<br/><br/><br/>
+## 0.20
 <br/>Amélioration de la fonction filtre perso
 <br/> Que sait-on à propos des url ?
 <br/> - pas les même termes que les title
@@ -101,18 +117,12 @@ Mises à jour
 <br/>
 <br/>
 <br/>
-<br/><br/><br/>### screenshot
-<br/>[1](/ori.png)
+<br/>[1](ori.png)
 <br/>
-<br/><br/><br/>### screenshot
 <br/>![2](modif.png)
 <br/>
-<br/><br/><br/>### screenshot
 <br/>![3](modif_v12.png)
 <br/>
-<br/><br/><br/>### screenshot
 <br/>![4](orange%20vert.png)
 <br/>
-<br/><br/><br/>### screenshot
 <br/>![5](menu.png)
-<br/>
