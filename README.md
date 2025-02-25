@@ -99,7 +99,7 @@ Amélioration de la fonction filtre perso, renommée en applyFilters()<br/>
 
 ## 0.20
 Amélioration de la fonction filtre perso<br/>
- Que sait-on à propos des url ?
+ <ins>Que sait-on à propos des url ?</ins>
  - pas les même termes que les title
  
  <ins>Exemple:</ins><br/>
