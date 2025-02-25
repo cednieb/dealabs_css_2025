@@ -118,7 +118,7 @@
 <br/>
 <br/>
 # screenshot
-<br/>[1](ori.png)
+<br/>[1](/ori.png)
 <br/>
 # screenshot
 <br/>![2](modif.png)
