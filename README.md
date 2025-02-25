@@ -17,7 +17,6 @@ C'est un userscript à charger avec une extension dans un navigateur WEB.
 <br/><br/>
 ## 0.02:
 Mise à jour des // @include
-<br/><br/>
 ## 0.03:
 <br/>Ajout des url d'update
 <br/><br/>
