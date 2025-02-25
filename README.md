@@ -118,17 +118,17 @@
 <br/>
 <br/>
 # screenshot
-![1](ori.jpg)
+![1](ori.png)
 <br/>
 # screenshot
-![2](modif.jpg)
+![2](modif.png)
 <br/>
 # screenshot
-![3](modif_v12.jpg)
+![3](modif_v12.png)
 <br/>
 # screenshot
-![4](orange vert.jpg)
+![4](orange_vert.png)
 <br/>
 # screenshot
-![5](menu.jpg)
+![5](menu.png)
 <br/>
