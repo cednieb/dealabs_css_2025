@@ -56,13 +56,14 @@ Suite à la nouvelle apparence du premier menu, j'incruste ceux de la deuxiéme 
 
 ## 0.15:
 Ajout d'un menu pour les différentes catégories des discussions qui s'ouvre en haut à gauche<br/>
-Amélioration des filtres, possibilité de cibler un ensemble de mots <br/>
-Exemple  : [["walkman",["drone","cam"],["tv","45","oled"],"skate""],"###5fcdf5","keywords","###000000"] <br/>
-Résultat :<br/>
+Amélioration des filtres, possibilité de cibler un ensemble de mots <br/><br/>
+<ins>Exemple  :</ins> [["walkman",["drone","cam"],["tv","45","oled"],"skate""],"###5fcdf5","keywords","###000000"] <br/><br/>
+<ins>Résultat :</ins>
 - un walman 
 - un drone muni d'une camera
 - une tv oled de 45 pouces   !! pas de guillemets
 - un skate
+- Couleur de fond en bleu
 
 ## 0.16:
 Réorganisarion du code<br/>
@@ -80,20 +81,20 @@ Ajout de 2 variables ( 1 pour activer le filtre )<br/>
 - VarApplyMyfilters 
 
 Amélioration de la fonction filtre perso, renommée en applyFilters()<br/>
- Que sait-on à propos des url ?
+ <ins>Que sait-on à propos des url ?</ins>
  - pas les même termes que les title
  - pas d'accents
  - tout en minuscule
  - chaque mot est suivi d'un tiret    
  
- 3 exemples:
+ <ins>3 exemples:</ins>
  - https://www.dealabs.com/bons-plans/ensemble-sommier-lit-140-190-123456789
  - https://www.dealabs.com/bons-plans/table-basse-123456789
  - https://www.dealabs.com/bons-plans/pc-portable-123456789   
 
  !! Limite : [href*="'table-" i]';   
 
- Solution:
+ <ins>Solution:</ins>
  - changement du selecteur  [title~="table" i]' (mot complet) au lieu de * (chaine dans un mot) 
 
 ## 0.20
@@ -101,19 +102,19 @@ Amélioration de la fonction filtre perso<br/>
  Que sait-on à propos des url ?
  - pas les même termes que les title
  
- Exemple:<br/>
+ <ins>Exemple:</ins><br/>
  !! https://www.dealabs.com/bons-plans/pc-portable-gamer-erazer-deputy-p60-156-fhd-144hz-i7-12650h-16go-ssd-512go-rtx-4070-livre-sans-windows-3007406<br/>
  Présence de virgules.<br/><br/>
  En cherchant 4070: 
  - ok pour l'url: pc-portable-gamer-erazer-deputy-p60-156-fhd-144hz-i7-12650h-16go-ssd-512go-rtx-4070-livre-sans-windows-3007406
  - pas ok pour le title: PC Portable 15,6" Erazer Deputy P60 - FHD 144Hz, i7-12650H, 16 Go ram, SSD 512 Go, RTX 4070, Sans OS 
 
- Solution:<br/>
- ,[title~="4070" i][href*="4070-" i]<br/>
- devrait être<br/> 
- ,[title~="4070" i],[href*="4070-" i]<br/>
+ <ins>Solution:</ins>
+ ,[title~="4070" i][href*="4070-" i]
+ devrait être 
+ ,[title~="4070" i],[href*="4070-" i]
 
-# Screenhots
+#Screenhots
 
 ![1](ori.png)
 
@@ -124,4 +125,3 @@ Amélioration de la fonction filtre perso<br/>
 ![4](orange%20vert.png)
 
 ![5](menu.png)
-
