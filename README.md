@@ -36,8 +36,7 @@ Autre approche, ajouter une balise style
 Un peu de css, voir le screenshot
 
 ## 0.09:
-Des filtres basés sur le contenu avec du css uniquement
-
+Des filtres basés sur le contenu avec du css uniquement<br/>
 -Orange correspond à un de mes filtres regroupant les marchands de jeux PC
 -Vert pour la Xbox
 -Fade - pour les deals expirés
@@ -59,7 +58,7 @@ Suite à la nouvelle apparence du premier menu, j'incruste ceux de la deuxiéme 
 Ajout d'un menu pour les différentes catégories des discussions qui s'ouvre en haut à gauche<br/>
 Amélioration des filtres, possibilité de cibler un ensemble de mots <br/>
 Exemple  : [["walkman",["drone","cam"],["tv","45","oled"],"skate""],"###5fcdf5","keywords","###000000"] <br/>
-Résultat : 
+Résultat :<br/>
 -un walman 
 -un drone muni d'une camera
 -une tv oled de 45 pouces   !! pas de guillemets
@@ -126,3 +125,4 @@ Amélioration de la fonction filtre perso<br/>
 ![4](orange%20vert.png)
 
 ![5](menu.png)
+
