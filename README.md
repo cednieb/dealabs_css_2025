@@ -1,8 +1,8 @@
 Mises à jour
-# 0.02:
+### 0.02:
 <br/>Mise à jour des // @include
 <br/>
-# 0.03:
+## 0.03:
 <br/>Ajout des url d'update
 <br/>
 # 0.05:
