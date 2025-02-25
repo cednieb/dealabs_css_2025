@@ -1,5 +1,4 @@
-<br/>
-<br/>Mises à jour
+Mises à jour
 # 0.02:
 <br/>Mise à jour des // @include
 <br/>
