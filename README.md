@@ -114,6 +114,10 @@ Amélioration de la fonction filtre perso<br/><br/>
  devrait être<br/>
  ,[title~="4070" i],[href*="4070-" i]<br/>
 
+
+## 0.26
+Fix des options exclude de la fonction filtre perso
+
 # Screenhots
 
 ![1](ori.png)
